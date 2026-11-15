@@ -1,0 +1,85 @@
+== общее ==
+  archives: 926
+  users: 787
+  sessions: 59750
+  lines_total: 70702243
+  by_level: {'Info': 39597564, 'Debug': 22772435, 'Error': 8323739, 'Warning': 8505}
+  error_events: 8323739
+  warning_events: 8505
+  error_types: 74217
+  users_with_errors: 677
+  first_ts: 2025/09/17 17:14:11
+  last_ts: 2026/09/28 09:25:22
+  access_log_bytes: 27698022822
+
+== топ Error-шаблонов ==
+    4082460   49.0%  users= 497  app/dns: failed to retrieve response for <host>. > Post "<url> io: read/write on closed pipe
+    3271682   39.3%  users= 580  app/dns: failed to retrieve response for <host>. > Post "<url> context deadline exceeded
+     328094    3.9%  users= 509  app/dns: failed to retrieve response for <host>. > Post "<url> EOF
+     290035    3.5%  users= 392  app/dns: UDP:<ip> cannot find the pending request
+      96329    1.2%  users= 611  proxy/tun: connection was refused
+      82518    1.0%  users=   9  app/dns: failed to retrieve response for <host>. > Post "<url> context canceled
+       9100    0.1%  users=   8  transport/internet/reality: REALITY: received real certificate (potential MITM or redirection)
+       8044    0.1%  users= 307  app/dns: failed to retrieve response for <host>. > Post "<url> http2: client connection lost
+       3391    0.0%  users=   9  app/dns: failed to retrieve response for <host>. > context canceled
+       2953    0.0%  users= 271  app/dns: failed to retrieve response for <host>. > Post "<url> unexpected EOF
+
+== классы (по регуляркам) ==
+  DNS-over-HTTPS не проходит            7688211   92.4%
+  DNS: потерян pending-запрос            290035    3.5%
+  TLS/сертификат                         150084    1.8%
+  прочее                                  99080    1.2%
+  локальный прокси отказал                96329    1.2%
+
+== концентрация по пользователям (Error) ==
+[(110, 787, 2175.0, 27031.999999999993, 176871.12000000008, 273335, 19.7)]
+
+== по ОС ==
+   ('android', 730, 7845117, 10747.0, 629)
+   ('ios', 5, 179065, 35813.0, 5)
+   (None, 13, 174439, 13418.0, 12)
+   ('macOs', 11, 112991, 10272.0, 10)
+   ('windows', 18, 7729, 429.0, 12)
+   ('androidTv', 10, 4398, 440.0, 9)
+
+== по версиям (>=10 пользователей) ==
+   ('android', datetime.date(2026, 8, 19), 95, 1991772, 20966.0)
+   (None, None, 13, 174439, 13418.0)
+   ('android', datetime.date(2026, 7, 16), 145, 1790273, 12347.0)
+   ('android', datetime.date(2026, 6, 11), 14, 133738, 9553.0)
+   ('android', datetime.date(2026, 7, 7), 55, 494904, 8998.0)
+   ('android', datetime.date(2026, 5, 14), 22, 191305, 8696.0)
+   ('android', datetime.date(2026, 6, 5), 11, 92351, 8396.0)
+   ('android', datetime.date(2026, 9, 9), 360, 2534637, 7041.0)
+   ('androidTv', datetime.date(2026, 9, 9), 10, 4398, 440.0)
+   ('windows', datetime.date(2026, 9, 9), 10, 1036, 104.0)
+
+== по дням ==
+  дней: [(375, datetime.date(2025, 9, 17), datetime.date(2026, 9, 28))]
+   (datetime.date(2026, 9, 18), 615000)
+   (datetime.date(2026, 9, 10), 525688)
+   (datetime.date(2026, 9, 21), 495883)
+   (datetime.date(2026, 9, 16), 489663)
+   (datetime.date(2026, 9, 17), 485689)
+
+== на сессию ==
+[(59750, 8323739, 139.3, 1183.0)]
+пользователей с логами: [(787,)]
+
+есть ли они в таблице users:
+[(787, 63, 10)]
+
+платящие среди них:
+[(104,)]
+
+средние ошибки у платящих и неплатящих:
+[('платит', 104, 9720.0, 1032.0), ('не платит', 683, 10707.0, 1178.0)]
+
+ошибки у пользователей с триалом и без (только matched):
+[('триал был', 63, 11314.0, 934.0), ('триала не было', 724, 10512.0, 1178.0)]
+
+доля всех пользователей базы с триалом и подпиской:
+[(1844880, 22197, 29046)]
+
+ошибки на пользователя по ОС (только matched):
+[('ios', 5, 35813.0), (None, 13, 13418.0), ('android', 730, 10747.0), ('macOs', 11, 10272.0), ('androidTv', 10, 440.0), ('windows', 18, 429.0)]

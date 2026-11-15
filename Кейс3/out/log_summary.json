@@ -1,0 +1,19 @@
+{
+  "archives": 926,
+  "users": 787,
+  "sessions": 59750,
+  "lines_total": 70702243,
+  "by_level": {
+    "Info": 39597564,
+    "Debug": 22772435,
+    "Error": 8323739,
+    "Warning": 8505
+  },
+  "error_events": 8323739,
+  "warning_events": 8505,
+  "error_types": 74217,
+  "users_with_errors": 677,
+  "first_ts": "2025/09/17 17:14:11",
+  "last_ts": "2026/09/28 09:25:22",
+  "access_log_bytes": 27698022822
+}

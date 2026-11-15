@@ -2,4 +2,5 @@
 __pycache__/
 *.pyc
 Кейс3/data/
+Кейс3/out/log_error_types.csv
 out.old/
