@@ -1,0 +1,47 @@
+{
+  "signal_groups": {
+    "card": 306,
+    "device": 995,
+    "ipua": 77481
+  },
+  "interesting_users": 23074,
+  "trials_total": 22197,
+  "card+device": {
+    "clusters": 1045,
+    "users": 2389,
+    "trial_users": 518,
+    "payers": 41,
+    "clusters_2plus_trials": 168,
+    "clusters_sequential": 116
+  },
+  "card+device+ipua": {
+    "clusters": 40069,
+    "users": 130780,
+    "trial_users": 8477,
+    "payers": 2570,
+    "clusters_2plus_trials": 1128,
+    "clusters_sequential": 734
+  },
+  "ipua_only": {
+    "clusters": 39772,
+    "users": 129757,
+    "trial_users": 8163,
+    "payers": 2567,
+    "clusters_2plus_trials": 1027,
+    "clusters_sequential": 656
+  },
+  "delta": {
+    "trial_users_added_by_ipua": 7959,
+    "share_base": 0.0233,
+    "share_with_ipua": 0.3819,
+    "note": "IP+User-Agent — слабый признак: мобильные операторы используют NAT, поэтому группы 2–4 пользователя могут быть попутчиками, а не одним человеком. Базовый граф (карта + UUID устройства) даёт нижнюю оценку, расширенный — верхнюю."
+  },
+  "abuse_cost_estimate": {
+    "trials_in_clusters": 518,
+    "lite_month_price_units": 249,
+    "units_per_trial_day": 8.3,
+    "lost_units_base": 12898.2,
+    "lost_units_upper": 211077.3,
+    "note": "оценка «стоимости» 3-дневного триала по цене месячной подписки Lite (249 в единицах orders.amount)"
+  }
+}

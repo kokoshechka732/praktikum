@@ -1,0 +1,175 @@
+{
+  "device_identifier_kinds": [
+    [
+      "empty",
+      1379292,
+      0,
+      1376371
+    ],
+    [
+      "buildtag",
+      980157,
+      47013,
+      649088
+    ],
+    [
+      "uuid",
+      22031,
+      20281,
+      12608
+    ]
+  ],
+  "device_identifier_trap_top": [
+    [
+      "AP3A.240905.015.A2",
+      104880
+    ],
+    [
+      "TP1A.220624.014",
+      79695
+    ],
+    [
+      "UP1A.231005.007",
+      78066
+    ],
+    [
+      "BP2A.250605.031.A3",
+      73312
+    ],
+    [
+      "SP1A.210812.016",
+      34463
+    ]
+  ],
+  "device_uuid_groups": 995,
+  "card_groups": 306,
+  "shared_external_accounts": [
+    0
+  ],
+  "clusters_2plus": 1045,
+  "users_in_clusters": 2389,
+  "trials_total": 22197,
+  "trial_users_in_clusters": 518,
+  "share_trials_in_clusters": 0.0233,
+  "clusters_with_2plus_trials": 168,
+  "clusters_with_sequential_trials": 116,
+  "top_clusters": [
+    {
+      "cluster_id": 789364,
+      "users": 7,
+      "trial_users": 7,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 57,
+      "sequential_trials": 8,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 1497594,
+      "users": 6,
+      "trial_users": 6,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 18,
+      "sequential_trials": 13,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 1060775,
+      "users": 5,
+      "trial_users": 5,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 24,
+      "sequential_trials": 6,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 1404010,
+      "users": 5,
+      "trial_users": 5,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 14,
+      "sequential_trials": 9,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 633793,
+      "users": 5,
+      "trial_users": 4,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 11,
+      "sequential_trials": 10,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 473054,
+      "users": 4,
+      "trial_users": 4,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 74,
+      "sequential_trials": 3,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 788176,
+      "users": 4,
+      "trial_users": 4,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 64,
+      "sequential_trials": 2,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 857271,
+      "users": 4,
+      "trial_users": 4,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 45,
+      "sequential_trials": 3,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 929093,
+      "users": 4,
+      "trial_users": 4,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 10,
+      "sequential_trials": 6,
+      "chain": 1,
+      "signals": 1
+    },
+    {
+      "cluster_id": 956020,
+      "users": 4,
+      "trial_users": 4,
+      "payers": 0,
+      "revenue": 0.0,
+      "created_span_days": 9,
+      "sequential_trials": 2,
+      "chain": 1,
+      "signals": 1
+    }
+  ],
+  "validation": {
+    "clusters_span_over_365d": 4,
+    "share_span_over_365d": 0.0038,
+    "clusters_single_trial_no_revenue": 109,
+    "note": "device_identifier в этой выгрузке — build-тег Android (AP3A.240905.015.A2 и т.п.), поэтому как признак тождества используется только UUID-подобный идентификатор"
+  },
+  "revenue_in_clusters": 24980.9
+}

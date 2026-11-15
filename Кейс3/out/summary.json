@@ -1,0 +1,775 @@
+{
+  "H1": {
+    "device_identifier_kinds": [
+      [
+        "empty",
+        1379292,
+        0,
+        1376371
+      ],
+      [
+        "buildtag",
+        980157,
+        47013,
+        649088
+      ],
+      [
+        "uuid",
+        22031,
+        20281,
+        12608
+      ]
+    ],
+    "device_identifier_trap_top": [
+      [
+        "AP3A.240905.015.A2",
+        104880
+      ],
+      [
+        "TP1A.220624.014",
+        79695
+      ],
+      [
+        "UP1A.231005.007",
+        78066
+      ],
+      [
+        "BP2A.250605.031.A3",
+        73312
+      ],
+      [
+        "SP1A.210812.016",
+        34463
+      ]
+    ],
+    "device_uuid_groups": 995,
+    "card_groups": 306,
+    "shared_external_accounts": [
+      0
+    ],
+    "clusters_2plus": 1045,
+    "users_in_clusters": 2389,
+    "trials_total": 22197,
+    "trial_users_in_clusters": 518,
+    "share_trials_in_clusters": 0.0233,
+    "clusters_with_2plus_trials": 168,
+    "clusters_with_sequential_trials": 116,
+    "top_clusters": [
+      {
+        "cluster_id": 789364,
+        "users": 7,
+        "trial_users": 7,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 57,
+        "sequential_trials": 8,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 1497594,
+        "users": 6,
+        "trial_users": 6,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 18,
+        "sequential_trials": 13,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 1060775,
+        "users": 5,
+        "trial_users": 5,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 24,
+        "sequential_trials": 6,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 1404010,
+        "users": 5,
+        "trial_users": 5,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 14,
+        "sequential_trials": 9,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 633793,
+        "users": 5,
+        "trial_users": 4,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 11,
+        "sequential_trials": 10,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 473054,
+        "users": 4,
+        "trial_users": 4,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 74,
+        "sequential_trials": 3,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 788176,
+        "users": 4,
+        "trial_users": 4,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 64,
+        "sequential_trials": 2,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 857271,
+        "users": 4,
+        "trial_users": 4,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 45,
+        "sequential_trials": 3,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 929093,
+        "users": 4,
+        "trial_users": 4,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 10,
+        "sequential_trials": 6,
+        "chain": 1,
+        "signals": 1
+      },
+      {
+        "cluster_id": 956020,
+        "users": 4,
+        "trial_users": 4,
+        "payers": 0,
+        "revenue": 0.0,
+        "created_span_days": 9,
+        "sequential_trials": 2,
+        "chain": 1,
+        "signals": 1
+      }
+    ],
+    "validation": {
+      "clusters_span_over_365d": 4,
+      "share_span_over_365d": 0.0038,
+      "clusters_single_trial_no_revenue": 109,
+      "note": "device_identifier в этой выгрузке — build-тег Android (AP3A.240905.015.A2 и т.п.), поэтому как признак тождества используется только UUID-подобный идентификатор"
+    },
+    "revenue_in_clusters": 24980.9
+  },
+  "H2": {
+    "months_used": [
+      "user_connection_logs_02_26.csv",
+      "user_connection_logs_03_04_26.csv",
+      "user_connection_logs_05_26.csv",
+      "user_connection_logs_06_26.csv",
+      "user_connection_logs_07_26.csv"
+    ],
+    "connections_per_user_day": [
+      [
+        "paid",
+        350050,
+        2.0,
+        9.0,
+        23.0,
+        4.05,
+        31.2
+      ],
+      [
+        "free",
+        3226322,
+        2.0,
+        5.0,
+        13.0,
+        2.52,
+        47.9
+      ]
+    ],
+    "adv_views_total": [
+      7552651,
+      414504,
+      "2025-11-29 00:00:01",
+      "2026-09-29 11:53:44.951452"
+    ],
+    "adv_by_tier": [
+      [
+        "paid",
+        107033,
+        3932,
+        27.2,
+        392.1
+      ],
+      [
+        "free",
+        7445618,
+        410572,
+        18.1,
+        27173.8
+      ]
+    ],
+    "adv_user_day": [
+      [
+        1879898,
+        2.0,
+        9.0,
+        25.0,
+        1886
+      ]
+    ],
+    "adv_views_by_month": [
+      [
+        "2025-11",
+        75662,
+        11095
+      ],
+      [
+        "2026-01",
+        848297,
+        36195
+      ],
+      [
+        "2026-02",
+        909253,
+        45294
+      ],
+      [
+        "2026-03",
+        614845,
+        38731
+      ],
+      [
+        "2026-04",
+        245886,
+        21991
+      ],
+      [
+        "2026-05",
+        474213,
+        38095
+      ],
+      [
+        "2026-06",
+        537110,
+        44658
+      ],
+      [
+        "2026-07",
+        1067660,
+        78279
+      ],
+      [
+        "2026-08",
+        1273251,
+        107371
+      ],
+      [
+        "2026-09",
+        1506474,
+        154925
+      ]
+    ],
+    "limitation": "в выгрузке нет объёма трафика в байтах (user_connection_logs: user, node, subscribe, created_at); таблица sub_limit не выгружена — лимиты 500 МБ/сутки и 15 ГБ/месяц измеряются только прокси-метриками"
+  },
+  "H3": {
+    "cohort_users": 609668,
+    "horizon_days": [
+      1,
+      3,
+      7,
+      14,
+      30,
+      90,
+      180
+    ],
+    "strata": {
+      "trial": {
+        "users": 15185,
+        "converted": 6159,
+        "conversion_rate": 0.4056,
+        "survival_no_purchase": {
+          "1": 0.998,
+          "3": 0.9941,
+          "7": 0.9744,
+          "14": 0.9559,
+          "30": 0.937,
+          "90": 0.6614,
+          "180": 0.6057
+        },
+        "median_days_to_purchase": 34.87632561572917
+      },
+      "no_trial": {
+        "users": 593300,
+        "converted": 1547,
+        "conversion_rate": 0.0026,
+        "survival_no_purchase": {
+          "1": 0.9997,
+          "3": 0.9995,
+          "7": 0.9993,
+          "14": 0.9991,
+          "30": 0.9988,
+          "90": 0.9982,
+          "180": 0.9977
+        },
+        "median_days_to_purchase": 37.73410604030093
+      }
+    },
+    "payers_total": 14774,
+    "payers_without_trial": 6853,
+    "share_payers_without_trial": 0.4639,
+    "trial_users": 22197,
+    "trial_users_who_paid": 7921,
+    "trial_to_paid_rate": 0.3569,
+    "mean_days_trial_to_payment": 30.1,
+    "median_days_trial_to_payment": 32.0,
+    "trial_to_purchase_lag_buckets": [
+      [
+        "31+ дней",
+        6121
+      ],
+      [
+        "8-30 дней",
+        745
+      ],
+      [
+        "4-7 дней",
+        720
+      ],
+      [
+        "1-3 дня (в период триала)",
+        179
+      ],
+      [
+        "0 (в день старта триала)",
+        156
+      ]
+    ],
+    "orders_window": [
+      "2025-07-02 14:58:30.643062",
+      "2026-08-15 04:03:00.122836",
+      17579
+    ],
+    "subscribe_window": [
+      "2025-04-21 19:06:51.398246",
+      "2026-09-29 11:42:30.502793",
+      69968
+    ]
+  },
+  "H4": {
+    "attempts_by_product": [
+      [
+        5,
+        "Lite",
+        15751,
+        7859,
+        4841,
+        3051,
+        163.58
+      ],
+      [
+        2,
+        "Silver",
+        1572,
+        668,
+        573,
+        331,
+        622.83
+      ],
+      [
+        3,
+        "Gold",
+        208,
+        51,
+        71,
+        86,
+        981.14
+      ],
+      [
+        4,
+        "Diamond",
+        48,
+        18,
+        21,
+        9,
+        959.2
+      ]
+    ],
+    "failure_rate_by_month": [
+      [
+        "2025-07",
+        1,
+        1,
+        0.0
+      ],
+      [
+        "2025-09",
+        2,
+        1,
+        50.0
+      ],
+      [
+        "2025-12",
+        5,
+        5,
+        0.0
+      ],
+      [
+        "2026-03",
+        3394,
+        2014,
+        39.8
+      ],
+      [
+        "2026-04",
+        3848,
+        2330,
+        38.4
+      ],
+      [
+        "2026-05",
+        5815,
+        2786,
+        33.9
+      ],
+      [
+        "2026-06",
+        4506,
+        1454,
+        15.6
+      ],
+      [
+        "2026-08",
+        8,
+        5,
+        37.5
+      ]
+    ],
+    "attempts_per_order": [
+      [
+        0,
+        3338
+      ],
+      [
+        1,
+        14241
+      ]
+    ],
+    "paid_share_by_failed_attempts": [
+      [
+        "0",
+        12073,
+        71.2
+      ],
+      [
+        "1",
+        5506,
+        0.0
+      ]
+    ],
+    "failed_timeout_minutes": [
+      62.0,
+      35.9,
+      53927
+    ],
+    "transactions_without_order": 110622,
+    "orders_total": 17579,
+    "transactions_total": 124863,
+    "failed_share": 0.4319
+  },
+  "H5": {
+    "funnel_by_month": [
+      [
+        "2024-11",
+        86,
+        25,
+        1,
+        3
+      ],
+      [
+        "2024-12",
+        103,
+        64,
+        1,
+        1
+      ],
+      [
+        "2025-01",
+        195,
+        158,
+        5,
+        21
+      ],
+      [
+        "2025-02",
+        99,
+        85,
+        3,
+        7
+      ],
+      [
+        "2025-03",
+        931,
+        705,
+        27,
+        23
+      ],
+      [
+        "2025-04",
+        3968,
+        2808,
+        85,
+        72
+      ],
+      [
+        "2025-05",
+        3584,
+        2218,
+        64,
+        65
+      ],
+      [
+        "2025-06",
+        5827,
+        5804,
+        235,
+        196
+      ],
+      [
+        "2025-07",
+        11997,
+        11992,
+        558,
+        349
+      ],
+      [
+        "2025-08",
+        13294,
+        11386,
+        602,
+        349
+      ],
+      [
+        "2025-09",
+        16894,
+        1,
+        706,
+        389
+      ],
+      [
+        "2025-10",
+        19432,
+        0,
+        809,
+        420
+      ],
+      [
+        "2025-11",
+        26818,
+        0,
+        999,
+        509
+      ],
+      [
+        "2025-12",
+        57167,
+        0,
+        1822,
+        908
+      ],
+      [
+        "2026-01",
+        50065,
+        0,
+        1075,
+        491
+      ],
+      [
+        "2026-02",
+        61872,
+        0,
+        1172,
+        516
+      ],
+      [
+        "2026-03",
+        67948,
+        0,
+        2085,
+        1042
+      ],
+      [
+        "2026-04",
+        34247,
+        0,
+        1647,
+        875
+      ],
+      [
+        "2026-05",
+        112306,
+        0,
+        2420,
+        1791
+      ],
+      [
+        "2026-06",
+        128217,
+        0,
+        1035,
+        989
+      ],
+      [
+        "2026-07",
+        235833,
+        0,
+        1694,
+        1683
+      ],
+      [
+        "2026-08",
+        416528,
+        0,
+        2199,
+        2199
+      ],
+      [
+        "2026-09",
+        577469,
+        0,
+        2953,
+        1876
+      ]
+    ],
+    "referred_users": 581,
+    "referred_payers": 102,
+    "organic_payers": 14672,
+    "referral_accruals": [
+      389,
+      10350.45
+    ],
+    "referral_payer_share": 0.1756,
+    "organic_payer_share": 0.008,
+    "nonreferred_users": 1844299
+  },
+  "data_quality": {
+    "users": [
+      "1844880",
+      "2024-11-21 10:15:54.434495",
+      "2026-09-29 12:17:10.740451"
+    ],
+    "orders": [
+      "17579",
+      "2025-07-02 14:58:30.643062",
+      "2026-08-15 04:03:00.122836"
+    ],
+    "subscribe": [
+      "69968",
+      "2025-04-21 19:06:51.398246",
+      "2026-09-29 11:42:30.502793"
+    ],
+    "transactions": [
+      "124863",
+      "2025-04-17 12:23:39.515195",
+      "2026-09-29 09:04:10.768271"
+    ],
+    "trials": [
+      "22197"
+    ],
+    "deleted_users": [
+      "37173"
+    ],
+    "guests": [
+      "1176913"
+    ],
+    "clients": [
+      "667962"
+    ],
+    "appmetrica_filled": [
+      "0"
+    ],
+    "products": [
+      [
+        1,
+        "Basic",
+        0.0
+      ],
+      [
+        2,
+        "Silver",
+        8.99
+      ],
+      [
+        3,
+        "Gold",
+        12.49
+      ],
+      [
+        4,
+        "Diamond",
+        21.99
+      ],
+      [
+        5,
+        "Lite",
+        4.49
+      ]
+    ],
+    "trial_rule": [
+      [
+        5,
+        3,
+        1.0
+      ]
+    ],
+    "orders_by_status": [
+      [
+        "paid",
+        8596,
+        1768892.0
+      ],
+      [
+        "failed",
+        5506,
+        1679494.0
+      ],
+      [
+        "pending",
+        3477,
+        1387492.0
+      ]
+    ],
+    "transactions_by_status": [
+      [
+        "completed",
+        69686,
+        14896876.0
+      ],
+      [
+        "failed",
+        53927,
+        17297720.0
+      ],
+      [
+        "pending",
+        1250,
+        2410286.0
+      ]
+    ]
+  }
+}

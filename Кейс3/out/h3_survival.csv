@@ -1,0 +1,15 @@
+stratum,horizon_days,share_without_purchase
+trial,1,0.998
+trial,3,0.9941
+trial,7,0.9744
+trial,14,0.9559
+trial,30,0.937
+trial,90,0.6614
+trial,180,0.6057
+no_trial,1,0.9997
+no_trial,3,0.9995
+no_trial,7,0.9993
+no_trial,14,0.9991
+no_trial,30,0.9988
+no_trial,90,0.9982
+no_trial,180,0.9977
