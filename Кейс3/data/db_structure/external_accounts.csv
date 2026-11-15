@@ -1,0 +1,3 @@
+﻿id;account_id;service_name;user_id;created_at;raw_info
+ALTER TABLE ONLY "public"."external_accounts" ADD CONSTRAINT "external_accounts_user_id_fkey" FOREIGN KEY (user_id) REFERENCES users(id) NOT DEFERRABLE;
+

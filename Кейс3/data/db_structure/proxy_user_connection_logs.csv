@@ -1,0 +1,5 @@
+﻿id;user_id;node_id;subscribe_id;created_at
+ALTER TABLE ONLY "public"."proxy_user_connection_logs" ADD CONSTRAINT "proxy_user_connection_logs_node_id_fkey" FOREIGN KEY (node_id) REFERENCES proxy_nodes(id) NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."proxy_user_connection_logs" ADD CONSTRAINT "proxy_user_connection_logs_subscribe_id_fkey" FOREIGN KEY (subscribe_id) REFERENCES subscribe(id) NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."proxy_user_connection_logs" ADD CONSTRAINT "proxy_user_connection_logs_user_id_fkey" FOREIGN KEY (user_id) REFERENCES users(id) NOT DEFERRABLE;
+

@@ -1,0 +1,3 @@
+﻿id;order_id;amount;payment_link;status;raw_response_payment;created_at;updated_at
+ALTER TABLE ONLY "public"."transactions" ADD CONSTRAINT "transactions_order_id_fkey" FOREIGN KEY (order_id) REFERENCES orders(id) NOT DEFERRABLE;
+

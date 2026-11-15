@@ -1,0 +1,4 @@
+﻿country_code;product_id;created_at
+ALTER TABLE ONLY "public"."country_disabled_products" ADD CONSTRAINT "country_disabled_products_country_code_fkey" FOREIGN KEY (country_code) REFERENCES currency_rates(country_code) ON DELETE CASCADE NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."country_disabled_products" ADD CONSTRAINT "country_disabled_products_product_id_fkey" FOREIGN KEY (product_id) REFERENCES product(id) ON DELETE CASCADE NOT DEFERRABLE;
+

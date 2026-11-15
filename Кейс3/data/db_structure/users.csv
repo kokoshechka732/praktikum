@@ -1,0 +1,5 @@
+﻿id;name;email;password;is_verified;created_at;updated_at;deleted_at;logout_at;trial_used_at;remna_id;remna_short_id;referrer_user_id;referal_balance;role;referral_config_id;dashamail_id;segment_id;ga4_client_id;is_was_guest;beta_tester;appmetrica_device_id;appmetrica_profile_id
+ALTER TABLE ONLY "public"."users" ADD CONSTRAINT "users_referral_config_id_fkey" FOREIGN KEY (referral_config_id) REFERENCES referral_config(id) NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."users" ADD CONSTRAINT "users_referrer_user_id_fkey" FOREIGN KEY (referrer_user_id) REFERENCES users(id) NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."users" ADD CONSTRAINT "users_segment_id_fkey" FOREIGN KEY (segment_id) REFERENCES dashamail_lists(id) ON DELETE SET NULL NOT DEFERRABLE;
+

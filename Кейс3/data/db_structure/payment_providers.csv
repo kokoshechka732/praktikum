@@ -1,0 +1,3 @@
+﻿id;name;base_currency;description;created_at;provider_type;is_active;category_id;weight;settings;updated_at;redirect_url_template
+ALTER TABLE ONLY "public"."payment_providers" ADD CONSTRAINT "payment_providers_category_id_fkey" FOREIGN KEY (category_id) REFERENCES payment_categories(id) NOT DEFERRABLE;
+

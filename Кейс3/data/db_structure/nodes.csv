@@ -1,0 +1,4 @@
+﻿id;remna_node_id;location_id;free_pool;auto_select;created_at;ip;category_id
+ALTER TABLE ONLY "public"."nodes" ADD CONSTRAINT "nodes_category_id_fkey" FOREIGN KEY (category_id) REFERENCES server_categories(id) NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."nodes" ADD CONSTRAINT "nodes_location_id_fkey" FOREIGN KEY (location_id) REFERENCES locations(id) NOT DEFERRABLE;
+

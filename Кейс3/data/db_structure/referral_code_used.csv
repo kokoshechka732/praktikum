@@ -1,0 +1,4 @@
+﻿id;referal_user_id;referer_user_id;created_at
+ALTER TABLE ONLY "public"."referral_code_used" ADD CONSTRAINT "referral_code_used_referal_user_id_fkey" FOREIGN KEY (referal_user_id) REFERENCES users(id) NOT DEFERRABLE;
+ALTER TABLE ONLY "public"."referral_code_used" ADD CONSTRAINT "referral_code_used_referer_user_id_fkey" FOREIGN KEY (referer_user_id) REFERENCES users(id) NOT DEFERRABLE;
+

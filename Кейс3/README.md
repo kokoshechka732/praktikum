@@ -11,6 +11,7 @@
 
 ```bash
 python download_data.py   # таблицы БД в data/
+python fetch_schema.py    # структура таблиц в data/db_structure/
 python fetch_logs.py      # logs.zip, 5 ГБ — нужен для гипотезы 6
 ```
 
