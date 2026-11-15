@@ -1,0 +1,36 @@
+{
+  "observed_variants": 8,
+  "cases": 8,
+  "inductive_miner": {
+    "model": "Inductive Miner (noise 0.2)",
+    "places": 9,
+    "transitions": 12,
+    "silent_transitions": 3,
+    "fitness_log": 0.9756,
+    "fitting_traces": 0.799,
+    "precision": 0.8405,
+    "simulated_traces": 1000,
+    "distinct_simulated_variants": 33,
+    "share_simulated_unseen_in_log": 0.509
+  },
+  "heuristic_miner": {
+    "model": "Heuristic Miner",
+    "places": 8,
+    "transitions": 11,
+    "silent_transitions": 1,
+    "fitness_log": 0.9962,
+    "fitting_traces": 0.937,
+    "precision": 0.9783,
+    "simulated_traces": 1000,
+    "distinct_simulated_variants": 18,
+    "share_simulated_unseen_in_log": 0.208
+  },
+  "manual_model": {
+    "model": "Ручная модель (варианты + наблюдённые развилки)",
+    "enumerated_variants": 15,
+    "variants_present_in_log": 8,
+    "share_present_in_log": 0.5333,
+    "coverage_of_log": 1.0,
+    "note": "цикл доработки ограничен двумя повторами"
+  }
+}
