@@ -1,0 +1,8 @@
+Activity,ExpectedRole,RolesObserved,Events
+Внеплановая проверка,auditor,auditor=16,16
+Доработка заявки,requester,requester=173,173
+Исполнение заявки,procurement,procurement=939,939
+Проверка договора,legal,legal=182,182
+Проверка заявки,specialist,specialist=1181,1181
+Согласование бюджета,finance,finance=941,941
+Согласование руководителем,manager,"manager=1141, requester=8",1149
