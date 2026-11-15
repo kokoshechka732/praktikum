@@ -1,0 +1,4 @@
+duckdb>=2.0
+pandas>=2.2
+pyarrow>=15.0
+pm4py>=2.7
